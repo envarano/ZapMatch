@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    tools:context="dev.tempest.zapmatch.AchievementsScreen">
+
+    <!--<include-->
+        <!--layout="@layout/action_support_bar"/>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/achievements_scroller"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/achievements_layout"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/action_support">
+
+            <TextView
+                android:id="@+id/achievements_text"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:gravity="start"
+                android:textSize="30sp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="2dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/value_text_background"
+                android:layout_weight="1"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/achievement_points" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

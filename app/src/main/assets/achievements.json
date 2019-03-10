@@ -1,0 +1,54 @@
+{
+  "achievements" : [
+
+    {
+      "title" : "MASTER",
+      "name" : "master",
+      "description" : "Pass all challenge mode levels",
+      "points" : 100
+    },
+
+    {
+      "title" : "NO SWEAT",
+      "name" : "noSweat",
+      "description" : "Complete a sequence of an entire row",
+      "points" : 10
+    },
+
+    {
+      "title" : "HALF-LIFE 3 CONFIRMED",
+      "name" : "halfLife3Confirmed",
+      "description" : "Complete level 3 with half your turns remaining",
+      "points" : 50
+    },
+
+    {
+      "title" : "UNSTOPPABLE",
+      "name" : "unstoppable",
+      "description" : "Score over 3000 points in free play",
+      "points" : 50
+    },
+
+    {
+      "title" : "AM I DOING IT RIGHT?",
+      "name" : "amIDoingItRight",
+      "description" : "Score under -50 points on level 19",
+      "points" : 50
+    },
+
+    {
+      "title" : "EZ",
+      "name" : "EZ",
+      "description" : "Complete a challenge mode level with 0 turns left",
+      "points" : 50
+    },
+
+    {
+      "title" : "HIGH ACHIEVER",
+      "name" : "highAchiever",
+      "description" : "Earn over 200 achievement points",
+      "points" : 100
+    }
+
+  ]
+}

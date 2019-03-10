@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/flash_item"
+        android:drawable="@drawable/bolt"
+        android:width="33dp"
+        android:height="33dp"
+        />
+
+</layer-list>

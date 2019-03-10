@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dddddd</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorAccent">#333944</color>
+    <color name="goodHover">#339933</color>
+    <color name="badHover">#993333</color>
+    <color name="textColour">#c6c6bc</color>
+    <color name="headingTextColour">#66ddff</color>
+    <color name="gridItemColour">#c0c0b6</color>
+</resources>

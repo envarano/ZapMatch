@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/no_charge_flash_item"
+        android:drawable="@drawable/grey_bolt"
+        android:width="33dp"
+        android:height="33dp"
+        />
+
+</layer-list>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ZapMatch</string>
+    <string name="challenge_mode_button_text">Challenge Mode</string>
+    <string name="endless_mode_button_text">Endless Mode</string>
+    <string name="achievements_button_text">Achievements</string>
+    <string name="options_button_text">Options</string>
+    <string name="easy_button">Easy</string>
+    <string name="easy_level_button">1</string>
+    <string name="medium_button">Medium</string>
+    <string name="medium_level_button">1</string>
+    <string name="hard_button">Hard</string>
+    <string name="hard_level_button">1</string>
+    <string name="action_settings">test</string>
+    <string name="title_activity_challenge_menu">ChallengeMenu</string>
+    <string name="turns_text"> Turns: </string>
+    <string name="score_text"> Score: </string>
+    <string name="level_text"> Level: </string>
+    <string name="target_text"> Target: </string>
+    <string name="main_menu">Main Menu</string>
+    <string name="next_level">Next Level</string>
+    <string name="restart">Restart</string>
+    <string name="retry">Retry</string>
+    <string name="lf_gridlock">Level Failed: Grid Lock!</string>
+    <string name="gridlock">Grid Lock!</string>
+    <string name="lf_no_more_turns">Level Failed: No More Turns!</string>
+    <string name="finish">Last Level Complete!</string>
+    <string name="achievement_points">Achievement Points: </string>
+    <string name="tip_one">matches can be made by dragging a number to another number that is 1 higher or lower than itself.</string>
+    <string name="tip_two">matches can only be made with the closest number in the same row or column</string>
+    <string name="tip_three">matches of more than 2 numbers can be made as long as each number is 1 higher or lower than the number before it. e.g 1, 2, 3 or 2, 1, 2</string>
+    <string name="tip_four">pressing the power up bar when it\'s at max will allow you to make one match of numbers in the same row or column with any number difference</string>
+    <string name="ok_button">OK</string>
+    <string name="dont_show_message">Don\'t show tips</string>
+
+
+
+</resources>

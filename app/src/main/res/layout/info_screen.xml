@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark"
+    tools:context="dev.tempest.zapmatch.InfoScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Credits"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp"
+        android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sound Credits"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- button click (Cartoon Pop Clean) sound made by Unfa from freesound.org"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- power up ready (Science fiction spark, power up) made by ZapSplat at zapsplat.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Win sound (Notification, alert, bright digital beeps, synth, ping, positive 1) made by ZapSplat at zapsplat.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- button click (Cartoon Pop Clean) sound made by Unfa from freesound.org"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Lose sound (Game, lose, negative tone 4) made by ZapSplat at zapsplat.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- incorrect match sound (Sound design electricity spark)  made by ZapSplat at zapsplat.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- activated power up click (Magic Wand Zap) made by ZapSplat at zapsplat.com"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Icon Credits"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Tick icon made by Eleonor Wang from www.flaticon.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Flash icon made by smashicons from www.flaticon.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Bolt icon made by freepik from www.flaticon.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Cancel icon made by Eleonor Wang from www.flaticon.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Infinity icon made by freepik from www.flaticon.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Information icon made by freepik from www.flaticon.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Speaker icon made by smashicons from www.flaticon.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Muted icon made by smashicons from www.flaticon.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Tips icon made by Freepik from www.flaticon.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Tips icon made by Freepik from www.flaticon.com"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

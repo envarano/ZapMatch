@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:background="@drawable/zapmatchbackground"
+    tools:context="dev.tempest.zapmatch.MainActivity">
+
+
+    <Button
+    android:id="@+id/sound_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sound"
+    android:padding="0dp"
+    android:minHeight="0dp"
+    android:layout_margin="10dp"
+    android:minWidth="0dp"
+    android:onClick="muteSound"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/challenge_mode_layout"
+    />
+
+    <Button
+    android:id="@+id/info_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/info_button"
+    android:padding="0dp"
+    android:minHeight="0dp"
+    android:layout_margin="10dp"
+    android:minWidth="0dp"
+    android:onClick="loadInfo"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/challenge_mode_layout"
+    />
+
+    <!--</LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/endlessModeButton"
+        android:id="@+id/challenge_mode_layout">
+
+
+
+
+        <Button
+            android:id="@+id/challengeModeButton"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:text="@string/challenge_mode_button_text"
+            android:textSize="23sp"
+            android:paddingEnd="10dp"
+            android:paddingStart="0dp"
+            android:shadowColor="#12eaf4"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="20"
+            android:padding="5dp"
+            android:textColor="@color/headingTextColour"
+            android:onClick="loadChallengeMode"
+            android:background="@drawable/button_background_top"
+            app:layout_constraintBottom_toTopOf="@+id/endlessModeButton"
+
+            android:textStyle="bold"
+            android:fontFamily="@font/poiretone"/>
+
+        <Button
+            android:id="@+id/levelButton"
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="80dp"
+            android:fontFamily="@font/poiretone"
+            android:textStyle="bold"
+            android:background="@drawable/opaque_with_border_light"
+            android:onClick="loadLevelMenuEasy"
+            android:text="@string/hard_level_button"
+            android:shadowColor="#12eaf4"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:textColor="@color/headingTextColour"
+            android:textSize="23sp"
+            app:layout_constraintBottom_toTopOf="@+id/endlessModeButton" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/endlessModeButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="23sp"
+        android:shadowColor="#12eeff"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="30"
+        android:padding="5dp"
+        android:onClick="loadEndlessMode"
+        android:textColor="@color/headingTextColour"
+        android:paddingEnd="10dp"
+        android:paddingStart="0dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
+        app:layout_constraintBottom_toTopOf="@+id/achievementsButton"
+        android:drawableEnd="@drawable/infinite_drawable"
+        android:fontFamily="@font/poiretone"
+        android:text="@string/endless_mode_button_text" />
+
+    <Button
+        android:id="@+id/achievementsButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="23sp"
+        android:shadowColor="#12eaf4"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="20"
+        android:textColor="@color/headingTextColour"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:onClick="loadAchievementsMenu"
+        android:paddingEnd="10dp"
+        android:paddingStart="0dp"
+        android:background="@drawable/button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:drawableEnd="@drawable/trophy_drawable"
+        android:fontFamily="@font/poiretone"
+        android:text="@string/achievements_button_text" />
+
+    <!--<Button-->
+    <!--android:id="@+id/optionsButton"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:textSize="30sp"-->
+    <!--android:onClick="loadOptionsMenu"-->
+    <!--android:paddingEnd="10dp"-->
+    <!--android:paddingStart="0dp"-->
+    <!--android:textColor="@color/textColour"-->
+    <!--android:background="@drawable/button_background"-->
+    <!--android:drawableEnd="@drawable/options_drawable"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--android:text="@string/options_button_text" />-->
+
+</android.support.constraint.ConstraintLayout>
